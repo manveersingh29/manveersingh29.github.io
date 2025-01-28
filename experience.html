@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience - Manveer Singh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Manveer Singh</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="miscellaneous.html">Miscellaneous</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Experience 1 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/experience1.png" alt="Experience 1" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">Research Assistant</h2>
+            <p class="experience-details">ROAHM Lab • Sep 2024 - </p>
+            <p class="experience-description">Working on safe motion planning to generate trajectories for high order systems (like digit). Generated joint reachable sets and spherical forward occupancy for digit. Trained neural nets to predict joint center and radii for safe planning. Working side-by-side on learning based safe motion planning for bimanual arms with safety constraints to pick and place objects. Trained and optimized neural nets to predict joint center and radii, predict control input bound and predict signed distance functions to generate safety constraints for optimization problem.
+            </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('experience1')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.roahmlab.com/')">
+                Website
+              </button>
+            </div>
+          </div>
+    
+          <!-- Experience 2 (Already correct) -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/experience2.jpg" alt="Experience 2" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">Fleet Managment System - Mobile Robotics Intern</h2>
+            <p class="experience-details">Addverb Technologies • Jan 2024 - July 2024</p>
+            <p class="experience-description">Contributed to C++ stack, optimized system leading to 10% improvement in performance. Introduced new algorithmic changes for global planner, real-time node property updates, map optimization, task generator and allocator. Developed GUI features enhancing map editing features, improved log extraction and debugging system, and introduced new simulation features to enhance the overall productivity of the software by 30%.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('experience2')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://addverb.com/')">
+                Website
+              </button>
+            </div>
+          </div>
+    
+          <!-- Experience 3 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/experience3.png" alt="Experience 3" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">Research Assistant</h2>
+            <p class="experience-details">SAM Lab • Jan 2025</p>
+            <p class="experience-description">Working on swaramalators that can reconfigure, move together, and manipulate their surroundings. Currently studying how various formations can self-organize. As well as studying the control of these microcollectives to assemble, expand, compress and travel.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('experience3')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://samlab.robotics.umich.edu/')">
+                Website
+              </button>
+            </div>
+          </div>
+    
+          <!-- Experience 4 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/experience4.jpg" alt="Experience 4" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">Team Captain - Rover</h2>
+            <p class="experience-details">MARS, Thapar • 2022 - 2023</p>
+            <p class="experience-description">Initiated and led successful development of Thapar University's first Rover (equipped with a robotic arm, soil analysis and autonomous system) for participation in International Rover Challenge ’23. 
+              Pioneered the entire project, secured funding and guided team members. Designed all sub systems after thorough research of existing rovers, ranked 6th in the overall competition and awarded “Emerging Team of the Year”.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('experience4')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://marstiet.com/')">
+                Website
+              </button>
+            </div>
+          </div>
+    
+          <!-- Experience 5 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/experience5.png" alt="Experience 5" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">Team Lead - Food Delivery Robot</h2>
+            <p class="experience-details">ELC, Thapar • Jan 2023 - Nov 2023</p>
+            <p class="experience-description">Designed and developed a cost-effective autonomous delivery robot utilizing RGBD camera and 2D LiDAR, achieving 90% mapping accuracy in feature-sparse environments after sensor fusion through custom ROS packages.
+              Implemented Fused: SLAM, localization and odometry algorithms integrating point cloud from multiple sensors, resulting in 20% improved localization and 30% improved odometry accuracy.
+              Optimized navigation system combining modified A* global planner with time-elastic band local planner, achieving 95% success rate in dynamic obstacle avoidance at speeds up to 1.0 m/s.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('experience5')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/bibot')">
+                Code
+              </button>
+            </div>
+          </div>
+    
+          <!-- Experience 6 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/experience6.png" alt="Experience 6" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">Reinforcement Learning Research Intern</h2>
+            <p class="experience-details">Cyber Physical System Group, IIT Kanpur • May 2023 - Aug 2023</p>
+            <p class="experience-description">Developed a map less navigation framework using model-free reinforcement learning algorithms (Q-Learning, SARSA), for reliable autonomous navigation in unmapped environments, developed using ROS and Gazebo and optimized the system for reduction in training time by 30%.
+              Successfully demonstrated decentralized navigation for four autonomous robots simultaneously, achieving collision-free path planning across 45m trajectories with 98% success rate over 20 trials.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('experience6')">
+                Read More
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://company.com')">
+                Code
+              </button> -->
+            </div>
+          </div>
+    
+          <!-- Experience 7 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/experience7.jpg" alt="Experience 7" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">Co-Founder, CEO</h2>
+            <p class="experience-details">Botted • 2022-2024</p>
+            <p class="experience-description">Co-founded an Ed Tech robotics startup focused on popularizing robotics education throughcomprehensive and practical learning kits. Bridging the gap between theory and application, empoweringenthusiasts and professionals to excel in the rapidly advancing field of robotics.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('experience7')">
+                Read More
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://company.com')">
+                Company
+              </button> -->
+            </div>
+          </div>
+    
+          <!-- Experience 8 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/osc2.jpeg" alt="Experience 8" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">Overall Student Coordinator</h2>
+            <p class="experience-details">MARS, Thapar • 2020-2024</p>
+            <p class="experience-description">Reshaped the society's landscape by driving engagement and recognition. Orchestrated a series of dynamic workshops and competitions, resulting in a surge of college participation in robotics events. Secured additional funding and expanded the inventory, while effectively disseminating knowledge to a diverse audience.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('experience8')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://marstiet.com/')">
+                Website
+              </button>
+            </div>
+          </div>
+
+          <!-- Experience 9 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/experience9.png" alt="Experience 9" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title">What's next ?</h2>
+            <p class="experience-details">Your Company ? </p>
+            <!-- <p class="experience-description">Description of your role and achievements</p> -->
+            <!-- <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project8')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://company.com')">
+                Company
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- Add this modal structure after your section but before the footer -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="modal-title"></h2>
+      <span class="close">&times;</span>
+    </div>
+    <div class="modal-body">
+      <div class="project-gallery">
+        <img id="modal-image-1" class="detail-img" alt="Detail 1"/>
+        <img id="modal-image-2" class="detail-img" alt="Detail 2"/>
+      </div>
+      <div class="project-content">
+        <h3>Detailed Description</h3>
+        <p id="modal-description"></p>
+        <div class="document-links">
+          <button class="btn btn-color-2" onclick="window.open('report.pdf')">
+            View Report
+          </button>
+          <button class="btn btn-color-2" onclick="window.open('certificate')">
+            Download Report
+          </button>
+          <button class="btn btn-color-2" onclick="window.open('codeRepo')">
+            Code
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+      <p>Copyright &#169; 2025 Manveer Singh. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      function toggleDetails(projectId) {
+        const details = document.getElementById(projectId);
+        details.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>

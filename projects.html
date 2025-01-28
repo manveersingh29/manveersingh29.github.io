@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Manveer Singh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Manveer Singh</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="miscellaneous.html">Miscellaneous</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- gait lab,
+     rl research
+     fsw work
+     fdm work
+     robomuse
+     AMR - warehouse
+     rrt
+     a* vs ana*
+     inverse kinematics solver
+     force closure evaluation
+     platform independent delivery robot
+     A* implementation
+     skylark drone
+     some thing on robotics arm and ros
+     something on gaussian splatting
+     rtabmap implemnetaiton
+     some fusion project
+     SIH project some gps project
+      -->
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-details-container">
+        <div class="about-containers">
+
+          <!-- Project 2 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/amr1.png" alt="Project 2" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Autonomous mobile robot</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Designed and developed an autonomous mobile robot. Implemented complete navigation stack using both ROS and ROS 2, integrating 2D LiDAR for SLAM, localization and odometry by testing and comparing various algorithms. Achieved 95% navigation and 98% positional accuracy in indoor environments on Gazebo.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project2')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/mibot')">
+                GitHub
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+            
+
+          <!-- Project 1 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/rl.png" alt="Project 1" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Multi agent cooperative navigation</h2>
+            <!-- <p class="project-details">Technologies Used</p> -->
+            <p class="project-description">Developed RL and DRL based algorithms, which work without prior information about the environment. The model's optimizer consists of safety constraints and knowledge sharing parameters resulting in safe path planning. The algorthim is built upon ROS framework and trained on Gazebo. Tests were performed using four robots and various environment layouts. Demonstrated nine successful tests out of ten trials.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project1')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/rl')">
+                GitHub
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+         
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/robomuse.jpg" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Robomuse</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Developed and implemented ROS based autonomy stack for this robot. Calibrated controller for precise wheel odometry, tested and implemented various LiDAR based odometry methods. Hardware consisted of RPLiDAR A2M12 and Intel NUC. Implemented and tested various global and local planners using move base. Tested SLAM using cartographer, hector SLAM and gmapping algorithm.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/Robomuse')">
+                GitHub
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project4.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Gaussian Splatting</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Brief description of the project and its key features</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/project4')">
+                GitHub
+              </button>
+            </div>
+          </div> -->
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/fdm1.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Defect detection and quality control system for FDM defects</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Developed an intelligent quality control system for Fused Deposition Modeling (FDM) 3D printing, integrating Data-efficient Image Transformers (DeiT) with IoT capabilities. The system achieves 99.3% accuracy in detecting critical defects like warping, layer delamination, and raster gaps through a novel Weighted Classification Accuracy approach. With a rapid response time of 0.112 seconds, the system enables real-time monitoring and parameter adjustment.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/project4')">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/fsw1.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Defect detection and an insitu repair system for FSW defects</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Developed a real-time monitoring and repair system for Friction Stir Welding using Swin Transformers, achieving 99% accuracy in defect detection with a 0.55-second response time. The system enables automated quality control through intelligent feedback mechanisms and real-time parameter adjustment, significantly improving manufacturing efficiency and weld quality for aerospace and automotive applications.
+            </p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/project4')">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/image2.jpeg" alt="Project 3" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">A* vs ANA*</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description"> A comparative analysis of the Anytime Non-parametric (ANA*) algorithm and the
+                traditional A* algorithm in the context of robot navigation planning, with specific emphasis on real-world
+                applications in dynamic environments. Demonstrated that ANA* achieves initial solution discovery up to 35% faster and 13% less solution cost
+                than traditional A*. Additionally, custom heuristic reduced the
+                average node expansion count by 10% compared to the Euclidean heuristic.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project3')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/pathplanningcomparison')">
+                GitHub
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/rrt.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Safe planning using RRT</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Developed path generation with 0.05 rad step size and 10% goal bias, visualizing end-effector trajectories in real-time. Enhanced solution with shortcut smoothing algorithm over 150 iterations, achieving optimized paths between start and goal configurations while maintaining collision-free properties within 2-minute computation constraints.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/rrt')">
+                GitHub
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/force.png" alt="Project54" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Force closure evaluation</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Developed friction cone calculation algorithms for three finger grippers comparing 4-vector and 8-vector discretization’s, achieving improved volume approximations. Engineered force closure evaluation using Q-Hull algorithm for 6D wrench space analysis, enabling stability assessment through hypersphere radius computation within the convex hull. Testing demonstrated effective grasp quality assessment across 50 configurations to analyze grasp stability.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/grasping')">
+                GitHub
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/inv.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Inverse kinematics solver</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Implemented numerical Jacobian computation and damped least-squares pseudo-inverse method to handle robot singularities. Enhanced the system with null-space optimization to maintain joint limits while achieving target end-effector positions. The solver successfully demonstrated 99% accurate end-effector positioning across 100 test configurations.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/ik')">
+                GitHub
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/piku.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Food delivery robot - PIKU</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Guiding development of Thapar Institute's food delivery robot project to operate in corridors and between buildings. The robot consists of a functional delivery managment unit along with speech detection and task exection using NLP. Currently being tested for suitable localization and safe planning algorithms, being built upon ROS 2 framework.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/project4')">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          
+<!-- 
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project4.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Something with manipulator</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Brief description of the project and its key features</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/project4')">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project4.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Something with drone</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Brief description of the project and its key features</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/project4')">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button>
+            </div>
+          </div> -->
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/icp.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Iterative Closest Point Algorithm</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Implemented and analyzed the Iterative Closest Point (ICP) algorithm for point cloud registration, testing its performance across three scenarios of varying complexity using a mug dataset. The analysis revealed ICP's strengths in handling well-positioned initial poses, achieving 98% accuracy in optimal conditions, while also exposing its limitations with complex geometries and significant misalignments.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/pointcloud')">
+                GitHub
+              </button>
+            </div>
+          </div>
+
+                    
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/kf.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">State Estimation using Kalman Filter</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Implemented a Kalman Filter for robot state estimation, developing a complete system from motion and sensor models. The implementation involved formulating state-space matrices, computing noise covariance parameters from experimental data, and implementing the recursive estimation algorithm. The system achieves accurate state tracking with 2σ confidence bounds and maintains position estimates within 3% error margins at 100Hz update rates. </p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/stateestimation')">
+                GitHub
+              </button>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/pca.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">RANSAC vs PCA</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Conducted a comparative analysis of RANSAC and PCA algorithms for model fitting, evaluating their performance against increasing outlier ratios. The study revealed RANSAC's better accuracy in handling noisy data, maintaining consistent performance even with significant outliers, while PCA showed increasing error rates with added noise but had faster execution.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/manveersingh29/pointcloud')">
+                GitHub
+              </button>
+            </div>
+          </div>
+          
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/fusion.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Sensor Fusion using rtabmap</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Brief description of the project and its key features</p>
+            <div class="btn-container">
+               <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/project4')">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button>
+            </div>
+          </div> -->
+
+           
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/image.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">Lower limb exoskeleton</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">Worked on developing an active exoskeleton for lower limb assistance. Developed an algorithm for control by using Model Predictive and PID Control, tested on simulation as well as developed testing rig with individual joint control.
+                Also recorded and analyzed IOR lower body marker trajectories using motion capture and force plate data,in order to analyze motion and calculate joint torques.</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button> -->
+              <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/mpc.pdf')">
+                Report
+              </button>
+              <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/goeson.png" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="project-sub-title">List Goes On...</h2>
+            <p class="project-details">Technologies Used</p>
+            <p class="project-description">There are many other projects that I have implemented which include developing a ROS based Drone to follow waypoints while avoiding obstacles and maintaining stability. Implemented inverse and forward dynamics on a 6DoF arm and also incorporated Moveit. Furthermore worked on implementing sensor fusion using RTABMap algorithm and also on implementing gausian splatting algorithms. And many more..</p>
+            <div class="btn-container">
+              <!-- <button class="btn btn-color-2 project-btn" onclick="showProjectDetails('project4')">
+                Read More
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/project4')">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://demo.com')">
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="modal-title"></h2>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="project-gallery">
+            <img id="modal-image-1" class="detail-img" alt="Detail 1"/>
+            <img id="modal-image-2" class="detail-img" alt="Detail 2"/>
+          </div>
+          <div class="project-content">
+            <h3>Project Overview</h3>
+            <p id="modal-description"></p>
+            <div class="tech-stack">
+              <h4>Technologies Used</h4>
+              <p id="modal-tech-stack"></p>
+            </div>
+            <div class="document-links">
+              <button class="btn btn-color-2" onclick="window.open('documentation.pdf')">
+                Documentation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <br><br>
+      <p>Copyright &#169; 2025 Manveer Singh. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function toggleDetails(projectId) {
+          const details = document.getElementById(projectId);
+          details.classList.toggle('active');
+        }
+      </script>
+  </body>
+</html>
