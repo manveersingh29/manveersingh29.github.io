@@ -89,6 +89,7 @@
 
   #hamburger-nav {
     display: none;
+    z-index: 999;
   }
 
   .hamburger-menu {
@@ -513,6 +514,7 @@
   /* FOOTER SECTION */
 
   footer {
+    position: relative;
     height: 26vh;
     margin: 0rem 1rem;
     padding: -10rem 0;
